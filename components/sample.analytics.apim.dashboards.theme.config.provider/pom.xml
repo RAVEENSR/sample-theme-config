@@ -61,7 +61,7 @@
 
     <properties>
         <export.package>
-            sample.analytics.apim.dashboards.*; version="${project.version}"
+            sample.analytics.apim.dashboards.theme.config.provider.*; version="${project.version}"
         </export.package>
         <private.package>
         </private.package>

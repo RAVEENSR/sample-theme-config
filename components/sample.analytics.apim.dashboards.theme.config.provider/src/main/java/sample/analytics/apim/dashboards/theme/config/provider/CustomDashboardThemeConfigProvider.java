@@ -37,7 +37,7 @@ public class CustomDashboardThemeConfigProvider implements DashboardThemeConfigP
 
     @Override
     public String getLogoPath(String username) throws DashboardException {
-        String logoPath = "/public/app/images/logo.svg";
+        String logoPath = "logo.clearbit.com/spotify.com";
         LOGGER.debug("Custom logo path returned via '{}' class for user: '{}.'", this.getClass().getName(), username);
         return logoPath;
     }
